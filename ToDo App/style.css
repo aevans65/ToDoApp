@@ -48,10 +48,10 @@ input{
     background: transparent;
     padding: 10px;
 }
-button{
+#add-task-btn{
     border: none;
     outline: none;
-    background: #7d3ae9;
+    background: #582df1;
     color: #fff;
     padding: 16px 50px;
     border-radius: 40px;
@@ -60,6 +60,29 @@ button{
     font-size: 16px;
     transition: all 0.3s ease;
 }
+#add-task-btn:hover{
+    background: #4714c0;
+}
+.secondary-btn {
+    background: #582df1;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.secondary-btn:hover {
+    background: #4714c0;
+;
+}
+.filters{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 ul li{
     list-style: none;
     font-size: 17px;
